@@ -197,7 +197,7 @@ body{
     cursor: pointer;
 }
 
-.main .aside .botao-pesquisa:hover {
+.main .aside .div-dentro-aside .div-pesquisa .botao-pesquisa:hover {
     color: #fff;
     background-color: rgb(43, 43, 43);
     border: 0px solid rgb(43, 43, 43);
