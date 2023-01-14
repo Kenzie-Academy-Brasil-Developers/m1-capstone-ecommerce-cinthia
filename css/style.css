@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: row;
+    height: 82px;
+    margin-bottom: 40px;
+}
+
+.header .div1 {
+    width: 50%;
+    padding: 20px 20px 20px 250px;
+}
+
+.header .div1 .titulo-logo1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+}
+
+.header .div1 .titulo-logo2 {
+    font-size: 40px;
+    color: #4780ea;
+    text-shadow: 2px 0px #fff;
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+}
+
+.header .div2 {
+    width: 50%;
+    padding: 27px 248px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header .div2 .link-header {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1300px;
+}
+
+.main .section-principal {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main .section-principal .div-principal {
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    position: relative;
+}
+
+.main .section-principal .div-principal .div-secundaria1 {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fff;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .section-principal .div-principal .div-secundaria1 .img-item {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main .section-principal .div-principal .div-secundaria2 {
+    padding: 20px 15px 20px 15px;
+    height: 50%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.main .section-principal .div-principal .div-secundaria2 .li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    list-style-type: none;
+    
+}
+
+.main .section-principal .div-principal .div-secundaria2 .li .nome-item {
+    margin: 5px 0px 0px 0px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main .section-principal .div-principal .div-secundaria2 .li .tipo-item {
+    margin: 0px 0px 5px 0px;
+    padding: 0;
+    font-size: 13px;
+}
+
+.main .section-principal .div-principal .div-secundaria2 .li .preco-item {
+    margin: 5px 0px 5px 0px;
+    padding: 0;
+}
+
+.main .section-principal .div-principal .div-secundaria2 .li .button-item {
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    color: #fff;
+    background-color: #4780ea;
+    border: 0px solid #4780ea;
+    border-radius: 5px;
+    width: 220px;
+    height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    bottom: 8px;
+}
+
+.main .section-principal .div-principal .div-secundaria2 .li .button-item:hover {
+    background-color: rgb(43, 43, 43);
+    border: 0px solid rgb(43, 43, 43);
+}
+
+.main .aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .aside .div-dentro-aside {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .aside .div-dentro-aside .div-pesquisa {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.main .aside .div-dentro-aside .div-pesquisa .input-pesquisa {
+    height: 30px;
+    width: 295px;
+    padding-right: 50px;
+    border: 2px solid #ececec;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+.main .aside .div-dentro-aside .div-pesquisa .botao-pesquisa {
+    height: 30px;
+    width: 100px;
+    margin-top: 3.3px;
+    margin-left: -103px;
+    color: #fff;
+    background-color: #4780ea;
+    border: 0px solid #4780ea;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main .aside .botao-pesquisa:hover {
+    color: #fff;
+    background-color: rgb(43, 43, 43);
+    border: 0px solid rgb(43, 43, 43);
+}
+
+.main .aside .div-dentro-aside .titulo-aside {
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px 10px 0px 0px;
+    height: 10px;
+    padding: 20px 20px 25px 20px;
+}
+
+.main .aside .div-dentro-aside .titulo-aside .span-titulo-aside {
+    color: #fff;
+    font-weight: 600;
+}
+
+.main .aside .div-dentro-aside .div-carrinho-vazio {
+    height: 150px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .aside .div-dentro-aside .div-carrinho-vazio .p-carrinho-vazio1 {
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.main .aside .div-dentro-aside .div-carrinho-vazio .p-carrinho-vazio2 {
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.main .aside .div-dentro-aside .div-lista-aside {
+    height: 150px;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+
+.main .aside .div-extra {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .aside .div-extra .div-total-aside {
+    height: 60px;
+    box-shadow: 0px -2px #e1e1e1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.main .aside .div-extra .button-aside {
+    height: 40px;
+    border-radius: 10px;
+    background-color: #e1e1e1;
+    border: 2px solid #e1e1e1;
+    font-weight: 600;
+    color: #919191;
+    cursor: pointer;
+}
+
+.main .aside .div-extra .button-aside:hover {
+    background-color: rgb(43, 43, 43);
+    border: 2px solid rgb(43, 43, 43);
+    color: #fff;
+}
+
+.main .aside .div-dentro-aside .lista .new-item {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main .aside .div-dentro-aside .lista .new-item .new-image {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.main .aside .div-dentro-aside .lista .new-item .div-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.main .aside .div-dentro-aside .lista .new-item .div-paragraph .paragraph {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 5px 0px 5px 0px
+}
+
+.main .aside .div-dentro-aside .lista .new-item .div-paragraph .tipo-anunciado {
+    font-size: 12px;
+    margin: 5px 0px 5px 0px
+}
+
+.main .aside .div-dentro-aside .lista .remove-button {
+    background-color: #f4f4f4;
+    font-size: 12px;
+    height: 20px;
+    border: 0px transparent;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main .aside .div-extra .div-total-aside .p-total-aside {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 5px 20px 5px;
+}
+
+.main .aside .div-extra .div-total-aside .soma-aside {
+    font-size: 15px;
+    margin: 20px 5px 20px 5px;
+}
