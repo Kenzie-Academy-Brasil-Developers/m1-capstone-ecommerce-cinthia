@@ -200,7 +200,7 @@ function createRemoveButton(produto) {
   removeButton.innerText = `Remove`;
   removeButton.addEventListener(`click`, (e) => {
       /** Dentro da função, se o index for diferente do que for passado, adiciona à lista do carrinho. Se for igual, remove. */
-      carrinho = carrinho.filter((_, index) => index !== Number(e.path[1].id));
+      carrinho = carrinho.filter((_, index) => index !== Number(e.target.parentNode.id));
       reloadList();
       soma -= precoAdicionado
       somaAside.innerText = `${(soma).toLocaleString(`pt-BR`, { style: `currency`, currency: `BRL` })}`
